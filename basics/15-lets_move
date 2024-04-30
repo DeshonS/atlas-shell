@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name [[:upper]]* -exec mv /tmp/u
+grep -v "[a-z]" -exec mv /tmp/u

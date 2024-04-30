@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -v *.html ..
+find -name '*.html' -type f -exec cp -vi ..

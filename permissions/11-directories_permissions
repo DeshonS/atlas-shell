@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+X /root/atlas-shell/permissions/
+chmod ugo+X /root/atlas-shell/permissions

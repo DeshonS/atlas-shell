@@ -1,8 +1,0 @@
-#!/bin/bash
-printf "What would you like to add?"
-read gitadd
-git add gitadd
-printf "What is your commit message?"
-read commess
-git commit -m commess
-git push

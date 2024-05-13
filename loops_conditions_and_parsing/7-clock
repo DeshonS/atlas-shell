@@ -8,9 +8,10 @@ do
 if [ $minute != 59 ]; then
 minute=$((minute + 1))
 echo "$minute"
-else
+elif [ $hour -lt 12 ]; then
 hour=$((hour+1))
 minute=0
 echo "Hour: $hour"
+else exit
 fi
 done

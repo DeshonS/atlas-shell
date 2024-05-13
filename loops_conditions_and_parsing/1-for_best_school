@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#this script runs a loop with a variable i starting at 0 that adds 1 with each loop and echoes "Best School" with each loop
 for ((i = 0 ; i < 10 ; i++)); do echo "Best School"; done

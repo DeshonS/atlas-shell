@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #this script runs a while loop, adding 1 to a variable with each iteration. An if,elif statement is used to identify certain loops to change the pattern of the output
-x=0
+x=1
 while [ $x -le 10 ]
 do
 if [ $x = 4 ]; then

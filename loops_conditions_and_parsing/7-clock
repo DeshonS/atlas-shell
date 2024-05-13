@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#this script counts up from Hour 0 by one with each loop. Every 60 cycles it adds 1 to the hour variable and resets the minute variable.
+minute=0
+hour=0
+echo "Hour: 0"
+while [ $minute -le 120 ]
+do
+if [ $minute != 60 ]; then
+minute=$((minute + 1))
+echo "$minute"
+else
+hour=$((hour+1))
+minute=0
+echo "Hour: $s" $hour
+fi
+done

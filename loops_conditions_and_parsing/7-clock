@@ -11,6 +11,6 @@ echo "$minute"
 else
 hour=$((hour+1))
 minute=0
-echo "Hour:$s" $hour
+echo "Hour:$hour"
 fi
 done

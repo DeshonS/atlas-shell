@@ -3,7 +3,7 @@
 minute=0
 hour=0
 echo "Hour: 0"
-while [ $hour -le 11 ]
+while [ $hour -le 12 ]
 do
 if [ $minute != 59 ]; then
 minute=$((minute + 1))

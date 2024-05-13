@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #this loop starts at 0 and adds 1 with every new iteration until it reaches 10, posting "Best School" each time until the conditions are met
 x=0
-while [$x -le 10]
+while [ $x -le 10 ]
 do 
 echo "Best School"
 x=$(($x + 1))

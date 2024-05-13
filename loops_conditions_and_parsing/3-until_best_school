@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #this script starts with a variable x equaling 0 and adds 1 with each loop UNTIL the variable x equals 10
 x=0
-until [$x == 10]
+until [ $x == 10 ]
 do
 echo "Best School"
-x = $((x+1))
+x=$((x+1))
 done

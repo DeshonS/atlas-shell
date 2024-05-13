@@ -3,14 +3,14 @@
 minute=0
 hour=0
 echo "Hour: 0"
-while [ $minute -le 120 ]
+while [ $hour -le 2 ]
 do
-if [ $minute != 60 ]; then
+if [ $minute != 59 ]; then
 minute=$((minute + 1))
 echo "$minute"
 else
 hour=$((hour+1))
 minute=0
-echo "Hour: $s" $hour
+echo "Hour:$s" $hour
 fi
 done

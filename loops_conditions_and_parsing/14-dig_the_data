@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This script sorts the data from exercise 12
+awk -F' ' '{print $1 " " $9}' apache-access.log | sort | uniq -c

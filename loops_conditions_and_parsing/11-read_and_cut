@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #this script reads the content of a file and cuts it to only display pertinent information
-file="/etc/passwd
+file="/etc/passwd"
 while read line
 do
 echo $line | cut -f 1,3,6 -d

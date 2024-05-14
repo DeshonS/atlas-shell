@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#this script looks for the existence of a file. If the file exists, it then checks to see if the file has anything in it and returns a result. After that it checks to see if the file is a regular file and returns a result. If the file does not exist in the first place, it skips to the end of the script and declares the file non-existent.
 file="school"
 if [ -e $file ]; then
  echo "school file exists"

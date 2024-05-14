@@ -3,10 +3,10 @@
 while IFS= read -r line
 do
 USERNAME=$(echo "$line" | cut -f 1 -d ":")
-GROUP_ID=$(echo "$line" | cut -f 3 -d ":")
+GROUP_ID=$(echo "$line" | cut -f 4 -d ":")
 HOME_DIRECTORY=$(echo "$line" | cut -f 6 -d ":")
 COMMAND=$(echo "$line" | cut -f 7 -d ":")
-USER_ID=$(echo "$line" | cut -f 4 -d ":")
+USER_ID=$(echo "$line" | cut -f 3 -d ":")
 PASSWORD=$(echo "$line" | cut -f 2 -d ":")
 USER_ID_INFO=$(echo "$line" | cut -f 5 -d ":")
 

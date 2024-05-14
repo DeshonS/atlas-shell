@@ -2,12 +2,12 @@
 #this script loops to 100, searching for certain variables along the way and changing the output result as it goes based on whether the number is a multiple of 3, 5, or both
 for i in {1..100}
 do
-if (( $i%3 == 0 && $i%5 == 0 )); then
+if (( i%3 == 0 && i%5 == 0 )); then
 echo "FizzBuzz";
 else
-if (( $i%3 == 0 )) ; then
+if (( i%3 == 0 )) ; then
 echo "Fizz"
-elif (( $i%5 == 0 )); then
+elif (( i%5 == 0 )); then
 echo "Buzz"
 else
 echo "$i"

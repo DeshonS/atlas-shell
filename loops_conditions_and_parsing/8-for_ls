@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #this script lists files but cuts down the names to the first dash
-for files in *
+for i in *
 do
-ls -l | cut -f 2- -d "-"
+	ls -l | cut -f 2- -d "-"
+done

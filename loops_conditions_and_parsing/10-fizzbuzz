@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#this script loops to 100, searching for certain variables along the way and changing the output result as it goes based on whether the number is a multiple of 3, 5, or both
+for i in {1..100}
+do
+if [ $((i % 3)) == 0 ]; then
+echo "Fizz"
+elif [ $((i % 5)) == 0 ]; then
+echo "Buzz"
+elif [ $((i % 3)) == 0 -a  $((i % 5)) == 0 ]; then
+echo "FizzBuzz"
+else
+echo "$i"
+fi
+done
